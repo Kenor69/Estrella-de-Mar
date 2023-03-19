@@ -1,0 +1,205 @@
+/*HEADER*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    background-color: #decbb9;
+    padding: 15px;
+    border: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    margin:0 10px;
+  }
+  
+  nav a:hover {
+    color: #b81313;
+  }
+  
+
+  li {
+    list-style: none;
+  }
+  
+
+  .derecha {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+/*////////////////////SECTION SOBRE NOSOTROS////////////////////////*/
+  img {
+    float: left;
+    margin-right: 10px;
+    /* Para separar la imagen del texto */
+  }
+  
+  body{margin:0}
+  
+
+  .contenedor2 {
+    width: 60%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 180px;
+    border: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  p {
+    font-size: large;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+  
+
+
+/*MENU*/
+section#section2 {
+  background-color: #e6d4c4;
+  border: 40px solid #e6d4c4;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: #ffff;
+  padding: 20px;
+  border-radius: 0px;
+}
+
+.img-menu {
+  max-width: auto;
+  max-height: 100px;
+  height: auto;
+  border-radius: 5px solid #fff;
+}
+
+.h1-menu {
+ text-align: center;
+}
+
+
+/*CHEFS*/
+.container {
+  border: 15px solid #fff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.box img {
+  max-width: 65%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+  margin: 0;
+}
+
+.box p {
+  margin: 10px 0;
+}
+
+
+/*FORMULARIO*/
+.form-container {
+  background-color: #e6d4c4;
+  padding: 40px;
+}
+
+form {
+  margin: auto;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 70px;
+  align-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.h1-center{
+  text-align: center;
+}
+
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="email"],
+input[type="submit"] {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color:#c5ab93;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  width: calc(100% + 20px);
+}
+
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #c5ab93;
+  border: 1px solid #c5ab93;
+}
